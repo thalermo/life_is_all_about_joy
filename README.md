@@ -1,8 +1,8 @@
 # Life is all about J🐶Y
 
-<img  src  ="https://i.ibb.co/1L2MXN0/IMG-1013-2.jpg"  width=40%  alt="my favorite picture with my dog"  >
+<img  src  ="https://i.ibb.co/1L2MXN0/IMG-1013-2.jpg"  width=30%  alt="my favorite picture with my dog"  >
 
-► In this Repository I practiced my React.js skills. Used map method, different components and props in order to rander an array with lots of information.
+► In this Repository I practiced my React.js skills. Used map method, different components and props in order to render an array with lots of information.
 
 ▶︎ In this React App you can find the best moment I shared with J🐶Y, my sport pug. Feel free to delete the content in my components and try as a practice to restore my solution.\*
 
