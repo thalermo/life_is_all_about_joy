@@ -1,0 +1,154 @@
+/*
+Color Palette 
+#FBD6D2
+#F190B7
+#CE49BF
+/* Shade and tints*/
+#A63EC5
+#faedf9
+#f5dbf2
+#ebb6e5
+#e7a4df
+#e292d9
+#dd80d2
+#ce49bf
+#903386
+#672560
+#521d4c
+#3e1639
+/*
+grays 
+#f0f0f0
+#c5c5c5
+#b6b6b6
+#6d6d6d
+#626262
+#575757
+#4c4c4c
+#414141
+#2c2c2c
+#212121
+*/
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbebf9;
+  box-shadow: rgba(62, 22, 57, 0.832) 0px 8px 24px;
+  height: 100px;
+  width: 100%;
+  font-weight: 800;
+  color: #626262db;
+  font-size: 36px;
+  margin-bottom: 1%;
+}
+.cards {
+  /* margin-top: 10px; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-image: url("https://media1.giphy.com/media/c3UJj3xcwWDd0hML3W/giphy.gif?cid=ecf05e47306hy9vyndgpsg0lv50lp7x4wlr88nbu9c1aejwq&rid=giphy.gif&ct=g");
+  background-repeat: repeat;
+}
+.card {
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: rgba(62, 22, 57, 0.832) 0px 8px 24px;
+  border: hwb(307 57% 11%) solid 10px;
+  /* background-color: antiquewhite; */
+  /* background-color: gray; */
+  background-color: #faedf9;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img {
+  width: 300px;
+}
+.card-title {
+  font-size: 120%;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 5% 0;
+  text-align: center;
+  width: 300px;
+  /* text-transform: capitalize; */
+  background-color: ;
+}
+
+/* DATES*/
+
+.date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 80px;
+  width: 100%;
+  background-image: url(https://i.stack.imgur.com/SDELi.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px;
+  margin-right: 10px;
+  padding-top: 0px;
+  line-height: normal;
+}
+
+.date .month {
+  color: #fff;
+  font-size: 11px;
+  padding-top: 4px;
+  text-transform: uppercase;
+}
+
+.date .day {
+  display: block;
+
+  padding-top: 10px;
+  color: #222;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* ******** CARD HOVER ***/
+.card {
+  border-radius: 4px;
+  z-index: 0;
+  overflow: hidden;
+}
+.card:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid #cccccc;
+  background-color: white;
+  cursor: pointer;
+}
+
+card:hover:before {
+  transform: scale(2.15);
+}
