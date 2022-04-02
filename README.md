@@ -1,6 +1,6 @@
 # Life is all about J🐶Y
 
-![Joy's image](https://i.ibb.co/1L2MXN0/IMG-1013-2.jpg)
+<img src ="https://i.ibb.co/1L2MXN0/IMG-1013-2.jpg" width=40% alt="my favorite picture with my dog" >
 
 In this Repository I practiced my React.js skills. Using map method, different components and props. In this React App you can find the best moment I shared with J🐶Y, my sport pug.
 
@@ -21,7 +21,7 @@ In order to review this project, please install the npm module after cloning the
 - adding a return button
 - improve the css and the ux
 
-### credits
+### Credits
 
 - Animated title : https://animate.style/
 
