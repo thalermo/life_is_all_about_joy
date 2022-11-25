@@ -7,7 +7,7 @@ function Card(props) {
     <div className="card ">
       <div className="card-title "> {props.title}</div>
       <div className="img-container">
-        <a href={props.url} target="_blank">
+        <a href={props.url} target="_blank" rel="noreferrer">
           <img
             className="card-img"
             // src={require("../images/adoption_day.png")}
