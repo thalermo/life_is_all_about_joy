@@ -2,6 +2,9 @@ import React from "react";
 import joy from "../joy";
 import Card from "./Card";
 
+// Using a function that receive the array with objects and points into the right
+// path in the objects. 
+
 function cardEntry(arrObj) {
   return (
     <Card
@@ -15,13 +18,14 @@ function cardEntry(arrObj) {
 }
 
 function App() {
-  // return <h1>Hello World!</h1>;
+
   return (
     <>
       <div className="cards">
         <header className="animate__animated animate__bounce">
           Life is all about J🐶Y
         </header>
+        {/* Running the function and mapping the object in the array */}
         {joy.map(cardEntry)}
       </div>
     </>

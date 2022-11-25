@@ -36,7 +36,7 @@ grays
 body {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 h1 {
   padding: 0;
@@ -56,11 +56,11 @@ header {
   margin-bottom: 1%;
 }
 .cards {
-  /* margin-top: 10px; */
   display: flex;
   justify-content: space-evenly;
+  /* This property makes the flexbox display responsive without any media queries */
   flex-wrap: wrap;
-  background-image: url("https://media1.giphy.com/media/c3UJj3xcwWDd0hML3W/giphy.gif?cid=ecf05e47306hy9vyndgpsg0lv50lp7x4wlr88nbu9c1aejwq&rid=giphy.gif&ct=g");
+  background-image: url('https://media1.giphy.com/media/c3UJj3xcwWDd0hML3W/giphy.gif?cid=ecf05e47306hy9vyndgpsg0lv50lp7x4wlr88nbu9c1aejwq&rid=giphy.gif&ct=g');
   background-repeat: repeat;
 }
 .card {
