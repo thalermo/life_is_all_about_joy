@@ -36,8 +36,6 @@ npm install
 
 **THE IDEA:** I order to practice React.js in the full-stack development program, I decided to take as a challenge and render cards with images taken from joy's instagram profile.
 
-<hr>
-
 ---
 
 ### 🤓 Highlight of code snippets & Screenshots
@@ -111,8 +109,8 @@ npm install
 <h4>wide & narrow screen</h4>
 
 <div align="center">
-<img src="./src/screenshots/responsive_wide.png" alt="medium screen view" width="40%"/>
-<img src="./src/screenshots/responsive_narrow.png" alt="medium screen view" width="30%"/>
+<img src="./src/screenshots/responsive_wide.png" alt="medium screen view" width="50%"/>
+<img src="./src/screenshots/responsive_narrow.png" alt="medium screen view" width="45%"/>
 </div>
 
 <p>This property makes the flexbox display responsive without any media queries </p>
