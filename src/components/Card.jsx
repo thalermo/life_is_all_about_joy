@@ -1,7 +1,6 @@
 // The Card function that receives props and renders the cards 
 
 function Card(props) {
-  console.log(props.img);
 
   return (
     <div className="card ">
@@ -10,7 +9,6 @@ function Card(props) {
         <a href={props.url} target="_blank" rel="noreferrer">
           <img
             className="card-img"
-            // src={require("../images/adoption_day.png")}
             src={props.img}
             alt="title"
             border="0"
